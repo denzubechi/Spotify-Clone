@@ -23,3 +23,6 @@
 .header__right > h4 {
     margin-left: 10px;
 }
+.searchbar:focus{
+    outline: none;
+}

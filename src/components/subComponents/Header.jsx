@@ -13,6 +13,7 @@ const Header = () => {
             <SearchIcon />
             <input 
             type="text" 
+            className='searchbar'
             placeholder='Search for Artists, Songs,or Albums'
             />
         </div>
