@@ -8,7 +8,7 @@ import MoreHorizIcon from "@material-ui/icons/MoreHoriz"
 import SongRow from './subComponents/SongRow'
 
 const Body = ({spotify}) => {
-  const [{ discover_weekly }, dispatch]= useDataLayerValue();
+  const [{ discover_weekly }]= useDataLayerValue();
 
   return (
     <div className='body'>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import Login from './Login'
 import { getTokenFromUrl } from './spotify'
 import SpotifyWebApi from 'spotify-web-api-js'
@@ -50,7 +50,7 @@ const App = () => {
     }
 
     console.log("User token = ", token)
-  }, []);
+  },[token, dispatch]);
 
   console.log(user);
 
