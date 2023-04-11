@@ -1,7 +1,7 @@
 export const authEndpoint = 
 "https://accounts.spotify.com/authorize";
 const redirectUri ="https://nzubechi-spotify-clone.netlify.app/";
-const clientId = "8765545b25344f0095aa282cbadd8093"
+const clientId = "75c9400e44db47bbb35aee86827222a7"
 
 const scopes=[
     "user-read-currently-playing",
